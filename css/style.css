@@ -89,14 +89,99 @@ body {
     gap: 10px;
 }
 
+.hero {
+    background: linear-gradient(to right, #ebf3f5 53%, #323546 47%);
+    padding: 200px 0;
+}
+.hero-info {
+    max-width: 510px;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.hero__small-title {
+    color: #5c8692;
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 154.5%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 12px;
+}
+
+.hero-title {
+    color: #141414;
+    font-family: "Playfair Display";
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -0.7px;
+    margin: 0;
+}
+
+.hero-text {
+    color: #555;
+    font-family: "Manrope";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 170%;
+    margin: 0;
+    padding: 24px 0 34px;
+}
+
+.hero-button {
+    display: flex;
+    padding: 23px 36px 24px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5c8692;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+}
+
+.hero__img-wrap img {
+    max-width: 532px;
+    box-shadow: 0px 20px 60px 0px rgba(47, 68, 73, 0.46);
+}
+
 @media screen and (max-width: 730px) {
     .header__phone {
         display: none;
     }
 }
 
+@media screen and (max-width: 1034px) {
+    .hero-title {
+        font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 1237px) {
     .header__nav {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hero {
+        background: #ebf3f5;
+    }
+    .hero__content {
+        display: flex;
+        flex-direction: column;
     }
 }
