@@ -525,6 +525,14 @@ body {
     gap: 37px;
     flex-shrink: 0;
 }
+.claim-card {
+    max-width: 455px;
+    height: 145px;
+}
+
+.claim-tablet {
+    max-width: 550px;
+}
 .claim-text {
     color: #5c8692;
     font-family: "Manrope";
@@ -572,7 +580,7 @@ body {
 .updates__middle-title {
     color: #141414;
     text-align: center;
-    font-family: "PlayfairDisplay";
+    font-family: "Playfair Display";
     font-size: 45px;
     font-weight: 700;
     line-height: 130%;
@@ -609,15 +617,151 @@ body {
     padding: 23px 41px 24px 41px;
     border: 2px solid #5c8692;
 }
+
+.footer {
+    background: #1e2c30;
+    padding: 78px 0 0;
+}
+.footer_block {
+    display: flex;
+    padding: 45px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+.footer_block1 {
+    display: flex;
+    padding: 45px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.footer_blocks {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px;
+    margin: 0;
+}
+
+.footer_block-title {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0;
+}
+.footer_block_nav-title {
+    font-family: "Manrope";
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.17px;
+    margin: 0;
+}
+.footer_block_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer_block_nav-link {
+    color: #fff;
+    font-family: "Manrope";
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 200%;
+    letter-spacing: -0.17px;
+    margin: 0;
+}
+
+.footer__social-link {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.footer__social-link img {
+    padding: 18px 18px;
+    border: 2px solid #5c8692;
+}
+.footer-logotitle {
+    color: #fff;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0.8px;
+    margin: 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo img {
+    max-width: 65px;
+    height: 65px;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 40px 0;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: center;
+    background: #111e22;
+    padding: 15px 0;
+}
+
+.footer_end span {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: -0.18px;
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (max-width: 730px) {
     .header__phone {
         display: none;
+    }
+    .footer__social-link {
+        display: none;
+    }
+    .footer__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 1034px) {
     .hero-title {
         font-size: 60px;
+    }
+    .footer_blocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_block1 {
+        display: none;
     }
 }
 
