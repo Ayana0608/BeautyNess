@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     padding: 40px 0 40px;
+    max-width: 100%;
 }
 
 .header-info {
@@ -46,7 +47,6 @@ body {
     font-size: 28px;
     font-weight: 700;
     line-height: 125%;
-    margin: 0;
 }
 
 .header__number-link {
@@ -111,7 +111,7 @@ body {
     line-height: 154.5%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
+
     padding: 0 0 12px;
 }
 
@@ -122,7 +122,6 @@ body {
     font-weight: 700;
     line-height: 115%;
     letter-spacing: -0.7px;
-    margin: 0;
 }
 
 .hero-text {
@@ -131,7 +130,6 @@ body {
     font-size: 19px;
     font-weight: 400;
     line-height: 170%;
-    margin: 0;
     padding: 24px 0 34px;
 }
 
@@ -154,7 +152,7 @@ body {
 }
 
 .hero__img-wrap img {
-    max-width: 532px;
+    max-width: 100%;
     box-shadow: 0px 20px 60px 0px rgba(47, 68, 73, 0.46);
 }
 
@@ -168,6 +166,10 @@ body {
 
 .card-info {
     max-width: 327px;
+}
+
+.card-info img {
+    max-width: 100%;
 }
 
 .card-title {
@@ -211,9 +213,11 @@ body {
     gap: 138px;
     padding: 150px 0;
 }
-
 .article-info {
     max-width: 529px;
+}
+.article__card-image {
+    max-width: 100%;
 }
 
 .article__small-text {
@@ -224,7 +228,6 @@ body {
     line-height: 154.5%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
 }
 
 .article-title {
@@ -234,8 +237,7 @@ body {
     font-weight: 700;
     line-height: 130%;
     letter-spacing: -0.45px;
-    margin: 0;
-    padding: 9px 94px 16px 0;
+    /*padding: 9px 94px 16px 0;*/
 }
 .article-text {
     color: #555;
@@ -243,7 +245,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 165%;
-    margin: 0;
     padding: 0 0 37px 0;
 }
 .article__cards {
@@ -253,11 +254,14 @@ body {
     gap: 11px;
 }
 .article__card {
-    max-width: 165px;
     text-align: center;
     border: 1px solid #7a9ca5;
     background: #fff;
     padding: 17px 33px 19px 33px;
+}
+
+.article__card {
+    max-width: 100%;
 }
 .article__card-title {
     color: #141414;
@@ -265,7 +269,6 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 120%;
-    margin: 0;
 }
 
 .popular__content {
@@ -288,7 +291,6 @@ body {
     line-height: 154.5%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
     padding: 0 0 9px 0;
 }
 .popular-title {
@@ -299,7 +301,6 @@ body {
     font-weight: 700;
     line-height: 130%;
     letter-spacing: -0.45px;
-    margin: 0;
 }
 .popular-info1 {
     display: flex;
@@ -320,13 +321,16 @@ body {
     gap: 30px;
 }
 
+.popular-image img {
+    width: 100%;
+}
+
 .popular__face-masks1 {
     color: #141414;
     font-family: "Playfair Display";
     font-size: 22px;
     font-weight: 700;
     line-height: 130%;
-    margin: 0;
 }
 .popular__face-masks2 {
     color: #555;
@@ -335,7 +339,6 @@ body {
     font-weight: 400;
     line-height: 165%;
     letter-spacing: 0.36px;
-    margin: 0;
 }
 
 .popular-button {
@@ -353,6 +356,7 @@ body {
 }
 
 .article__card-image {
+    max-width: 100%;
     box-shadow: 0px 20px 60px 0px rgba(47, 68, 73, 0.46);
 }
 
@@ -373,7 +377,6 @@ body {
     line-height: 154.5%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
 }
 
 .customers__middle-title {
@@ -384,7 +387,6 @@ body {
     font-weight: 700;
     line-height: 130%;
     letter-spacing: -0.45px;
-    margin: 0;
 }
 
 .customers__content {
@@ -408,6 +410,10 @@ body {
     margin: 0;
 }
 
+.customers-info {
+    max-width: 100%;
+}
+
 .customers__middle-card {
     background: #1e2c30;
     max-width: 582px;
@@ -417,6 +423,7 @@ body {
 .customers__middle-info {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 .customers-img {
     max-width: 190px;
@@ -439,8 +446,8 @@ body {
     font-weight: 600;
     line-height: 160%;
     letter-spacing: 0.42px;
-    margin: 0;
     padding: 0 240px 0 0;
+    margin: 0;
 }
 
 .actually-title {
@@ -471,6 +478,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 105px;
+    max-width: 100%;
 }
 .actually__content2 {
     display: flex;
@@ -479,6 +487,7 @@ body {
     gap: 105px;
     padding: 40px 0 0 0;
     margin: 0 0 140px 0;
+    max-width: 100%;
 }
 
 .actually-info {
@@ -496,7 +505,6 @@ body {
     font-weight: 400;
     line-height: 165%;
     letter-spacing: 0.36px;
-    margin: 0;
 }
 
 .actually__content-title {
@@ -505,7 +513,6 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 120%;
-    margin: 0;
 }
 .claim {
     background: #edf5f7;
@@ -516,23 +523,24 @@ body {
     align-items: center;
     justify-content: center;
     padding: 132px 0;
+    margin: 0;
 }
 .claim-info {
     display: flex;
-    max-width: 534px;
     flex-direction: column;
     align-items: flex-start;
     gap: 37px;
-    flex-shrink: 0;
+    max-width: 534px;
+    margin: 0;
 }
-.claim-card {
-    max-width: 455px;
-    height: 145px;
+.claim-card img {
+    max-width: 100%;
 }
 
-.claim-tablet {
-    max-width: 550px;
+.claim-tablet img {
+    max-width: 100%;
 }
+
 .claim-text {
     color: #5c8692;
     font-family: "Manrope";
@@ -541,7 +549,6 @@ body {
     line-height: 154.5%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 0;
 }
 .claim-title {
     color: #141414;
@@ -550,9 +557,25 @@ body {
     font-weight: 700;
     line-height: 130%;
     letter-spacing: -0.45px;
-    margin: 0;
 }
 
+.claim__content-input {
+    display: flex;
+    max-width: 550px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+}
+
+.claim__content-tablet {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 54px;
+}
 .claim-desc {
     color: #555;
     font-family: "Manrope";
@@ -593,6 +616,7 @@ body {
 }
 
 .updates-info {
+    max-width: 100%;
     display: flex;
     gap: 40px;
 }
@@ -628,7 +652,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    flex-shrink: 0;
 }
 .footer_block1 {
     display: flex;
@@ -636,7 +659,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    flex-shrink: 0;
 }
 
 .footer_blocks {
@@ -644,7 +666,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 0 100px;
-    margin: 0;
 }
 
 .footer_block-title {
@@ -653,7 +674,6 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 140%;
-    margin: 0;
 }
 .footer_block_nav-title {
     font-family: "Manrope";
@@ -663,7 +683,6 @@ body {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.17px;
-    margin: 0;
 }
 .footer_block_nav {
     display: flex;
@@ -679,7 +698,6 @@ body {
     font-weight: 500;
     line-height: 200%;
     letter-spacing: -0.17px;
-    margin: 0;
 }
 
 .footer__social-link {
@@ -698,7 +716,6 @@ body {
     font-weight: 700;
     line-height: 125%;
     letter-spacing: 0.8px;
-    margin: 0;
 }
 
 .footer-logo {
@@ -732,8 +749,19 @@ body {
     font-weight: 400;
     line-height: 200%;
     letter-spacing: -0.18px;
-    margin: 0;
+
     padding: 0;
+}
+
+@media screen and (max-width: 390px) {
+    .header-button {
+        display: none;
+    }
+}
+@media screen and (max-width: 561px) {
+    .article__cards {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 730px) {
